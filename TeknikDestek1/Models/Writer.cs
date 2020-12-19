@@ -10,6 +10,9 @@ namespace TeknikDestek1.Models
         public int Id { get; set; }
         public string Name { get; set; }
         public string LastName { get; set; }
+        
+        public string Authority { get; set; }//yazarın yektikisi
+       
 
         public Cinsiyet Cinsiyet { get; set; }
 
