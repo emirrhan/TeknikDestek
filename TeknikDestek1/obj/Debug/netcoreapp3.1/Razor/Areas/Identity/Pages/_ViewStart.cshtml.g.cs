@@ -12,7 +12,36 @@ namespace AspNetCore
     using Microsoft.AspNetCore.Mvc;
     using Microsoft.AspNetCore.Mvc.Rendering;
     using Microsoft.AspNetCore.Mvc.ViewFeatures;
+#nullable restore
+#line 1 "D:\SAKARYA ÜNİVERSİTESİ\BİLGİSAYAR MÜHENDİSLİGİ\2.SENE 1.DÖNEM 3.VE 4. SINIF DERSLERİ\BSM311 - WEB PROGRAMLAMA\proje_my\TeknikDestek\TeknikDestek1\Areas\Identity\Pages\_ViewImports.cshtml"
+using Microsoft.AspNetCore.Identity;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 2 "D:\SAKARYA ÜNİVERSİTESİ\BİLGİSAYAR MÜHENDİSLİGİ\2.SENE 1.DÖNEM 3.VE 4. SINIF DERSLERİ\BSM311 - WEB PROGRAMLAMA\proje_my\TeknikDestek\TeknikDestek1\Areas\Identity\Pages\_ViewImports.cshtml"
+using TeknikDestek1.Areas.Identity;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 3 "D:\SAKARYA ÜNİVERSİTESİ\BİLGİSAYAR MÜHENDİSLİGİ\2.SENE 1.DÖNEM 3.VE 4. SINIF DERSLERİ\BSM311 - WEB PROGRAMLAMA\proje_my\TeknikDestek\TeknikDestek1\Areas\Identity\Pages\_ViewImports.cshtml"
+using TeknikDestek1.Areas.Identity.Pages;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 5 "D:\SAKARYA ÜNİVERSİTESİ\BİLGİSAYAR MÜHENDİSLİGİ\2.SENE 1.DÖNEM 3.VE 4. SINIF DERSLERİ\BSM311 - WEB PROGRAMLAMA\proje_my\TeknikDestek\TeknikDestek1\Areas\Identity\Pages\_ViewImports.cshtml"
+using TeknikDestek1.Models;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"330a635f71f47285eacb2484685031fe87558a73", @"/Areas/Identity/Pages/_ViewStart.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"00cf7e48fdaf7a8062aa8b3d1e9798fc4bfdb1b3", @"/Areas/Identity/Pages/_ViewImports.cshtml")]
     public class Areas_Identity_Pages__ViewStart : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #pragma warning disable 1998
