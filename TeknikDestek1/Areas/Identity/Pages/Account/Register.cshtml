@@ -1,7 +1,7 @@
 ﻿@page
 @model RegisterModel
 @{
-    ViewData["Title"] = "Register";
+    ViewData["Title"] = "Kayıt Ol";
 }
 
 <h1>@ViewData["Title"]</h1>
@@ -12,6 +12,21 @@
             <h4>Create a new account.</h4>
             <hr />
             <div asp-validation-summary="All" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Input.NameUser"></label>
+                <input asp-for="Input.NameUser" class="form-control" />
+                <span asp-validation-for="Input.NameUser" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Input.LastNameUser"></label>
+                <input asp-for="Input.LastNameUser" class="form-control" />
+                <span asp-validation-for="Input.LastNameUser" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Input.DtimeUser"></label>
+                <input asp-for="Input.DtimeUser" class="form-control" />
+                <span asp-validation-for="Input.DtimeUser" class="text-danger"></span>
+            </div>
             <div class="form-group">
                 <label asp-for="Input.Email"></label>
                 <input asp-for="Input.Email" class="form-control" />

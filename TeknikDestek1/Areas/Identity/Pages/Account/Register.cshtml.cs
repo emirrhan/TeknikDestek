@@ -47,6 +47,14 @@ namespace TeknikDestek1.Areas.Identity.Pages.Account
         public class InputModel
         {
             [Required]
+            public string NameUser { get; set; }
+
+            [Required]
+            public string LastNameUser { get; set; }
+            [Required]
+            [DataType(DataType.Date)]
+            public DateTime DtimeUser { get; set; }
+            [Required]
             [EmailAddress]
             [Display(Name = "Email")]
             public string Email { get; set; }
