@@ -1,0 +1,17 @@
+name 	TeamWiewer Bağlantısı
+konu  	TW ile başka bir bilgisayarı uzaktan kontrol etme
+
+info    Teamviewer programı bir başkasının uzaktan 
+bilgisayarınıza bağlanıp size destek vermesini sağlayan 
+bir program. Teamviewer’ı bilgisayarınıza indirmek için ilk 
+olarak yapmanız gereken teamviewer.com adresinden kurulum 
+dosyasını indirmek olacaktır. Kullanmış olduğunuz farklı 
+işletim sistemlerine göre ayrı kurulum dosyalarını buradan 
+bulabilirsiniz.Daha sonra kurulumu gerçekleştirdikten sonra
+Bağlanacağınız bilgisayardaki tw programının ID ve Şifre
+kısmını kullanarak arayüzden bağlantı kurabilirsiniz.
+
+banner  5.jpg 
+video   https://www.youtube.com/watch?v=BZSDOxf-6Mk
+referans aldıgın yer: internet
+yazar Emirhan

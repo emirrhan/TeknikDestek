@@ -1,0 +1,16 @@
+name	E-devlet sisteminden ögrenci belgesi alma
+konu    Öğrenci Belgesi
+
+info    Aslında sadece üniversite öğrencileri değil lise 
+öğrencileri de e-devlet üzerinden öğrenim belgesi alabilir. 
+E-Devlet sistemine www.turkiye.gov.tr adresinden TC kimlik 
+numaranız ve şifreniz ile giriş yaptığınızda Yükseköğretim 
+Kurulu Başkanlığı’nın verdiği hizmetlere giriş
+yaparak öğrenci belgesini alabilirsiniz.
+
+banner  1.jpg
+video   https://www.youtube.com/watch?v=iMHF-e0_ZyU
+referans aldıgın yer : İnternet
+yazar :Mertcan
+
+

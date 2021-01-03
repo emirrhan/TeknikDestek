@@ -1,0 +1,19 @@
+name	Modem Kurulumu 
+konu    Modem kurulumunun açıklaması
+
+info Modem kurulumu için ilk olarak bütün kabloların 
+doğru yerlere takılması gereklidir. Basit bir mekanizması 
+olan modemde hangi kablonun hangi deliğe takılacağı çok 
+kolay bir şekilde tespit edilebilir. Eğer kullanma kılavuzu 
+varsa kılavuz içerisindeki görselli anlatımdan yararlanılabilir.
+İlk olarak tarayıcıdan modemin ara yüzü adresine girilmelidir. 
+Bu genellikle 192.168.1.1 olur. Adres çubuğu üzerine bu yazıldıktan 
+sonra modemin kullanıcı adı ve şifresi istenir. Bunlar da genellikle 
+admin ve admin olur.Bu bilgilerin girilmesinin ardından bir arayüze 
+erişilir. Burada protokol ayarları Türkiye için ise PPPoE veya PPPoA 
+şeklinde seçilmelidir.Daha sonra kurulum adımları takip edilir.
+   
+banner  4.jpg
+video   https://www.youtube.com/watch?v=x6h5beR3v60
+referans aldıgın yer: internet
+yazar kim Mertcan
