@@ -1,0 +1,16 @@
+name	E-Randevu Sistemi
+konu    İnteret üzerinden hastane randevusu alma
+
+info    MHRS üzerinden randevu alabilmek için ALO 
+182 hattınu arayarak operatörlerden destek alabilirsiniz.
+Web'den randevu almak için; Daha önceden üyelik kaydınız 
+yok ise "Randevu Al" butonuna tıkladıktan sonra gelen 
+ekrandan "Üye Ol" seçeneğini tıklayarak üyelik işleminizi 
+gerçekleştirebilirsiniz. Eğer üyeliğiniz mevcut ise kimlik 
+numaranız ve şifrenizle istediğiniz hastane ve hekimi seçerek 
+randevunuzu oluşturabilirsiniz.
+
+banner  6.jpg
+video   https://www.youtube.com/watch?v=EB2aYMFGwtc
+referans aldıgın yer: internet
+yazar kim Emirhan
