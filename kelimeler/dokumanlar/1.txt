@@ -1,4 +1,4 @@
-name	E-devlet sisteminden ögrenci belgesi alma
+name	Öğrenci belgesi alma
 konu    Öğrenci Belgesi
 
 info    Aslında sadece üniversite öğrencileri değil lise 
@@ -8,7 +8,7 @@ numaranız ve şifreniz ile giriş yaptığınızda Yükseköğretim
 Kurulu Başkanlığı’nın verdiği hizmetlere giriş
 yaparak öğrenci belgesini alabilirsiniz.
 
-banner  1.jpg
+banner  1.1jpg
 video   https://www.youtube.com/watch?v=iMHF-e0_ZyU
 referans aldıgın yer : İnternet
 yazar :Mertcan

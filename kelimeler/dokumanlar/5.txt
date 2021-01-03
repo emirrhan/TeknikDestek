@@ -1,5 +1,5 @@
 name 	TeamWiewer Bağlantısı
-konu  	TW ile başka bir bilgisayarı uzaktan kontrol etme
+konu  	Uzak masaüstü bağlantısı
 
 info    Teamviewer programı bir başkasının uzaktan 
 bilgisayarınıza bağlanıp size destek vermesini sağlayan 
