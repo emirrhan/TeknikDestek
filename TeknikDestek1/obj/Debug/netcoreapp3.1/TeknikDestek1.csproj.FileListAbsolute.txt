@@ -184,7 +184,6 @@ D:\SAKARYA ÜNİVERSİTESİ\BİLGİSAYAR MÜHENDİSLİGİ\2.SENE 1.DÖNEM 3.VE 4
 D:\SAKARYA ÜNİVERSİTESİ\BİLGİSAYAR MÜHENDİSLİGİ\2.SENE 1.DÖNEM 3.VE 4. SINIF DERSLERİ\BSM311 - WEB PROGRAMLAMA\proje_my\TeknikDestek\TeknikDestek1\obj\Debug\netcoreapp3.1\TeknikDestek1.csproj.CoreCompileInputs.cache
 D:\SAKARYA ÜNİVERSİTESİ\BİLGİSAYAR MÜHENDİSLİGİ\2.SENE 1.DÖNEM 3.VE 4. SINIF DERSLERİ\BSM311 - WEB PROGRAMLAMA\proje_my\TeknikDestek\TeknikDestek1\obj\Debug\netcoreapp3.1\TeknikDestek1.MvcApplicationPartsAssemblyInfo.cs
 D:\SAKARYA ÜNİVERSİTESİ\BİLGİSAYAR MÜHENDİSLİGİ\2.SENE 1.DÖNEM 3.VE 4. SINIF DERSLERİ\BSM311 - WEB PROGRAMLAMA\proje_my\TeknikDestek\TeknikDestek1\obj\Debug\netcoreapp3.1\TeknikDestek1.MvcApplicationPartsAssemblyInfo.cache
-D:\SAKARYA ÜNİVERSİTESİ\BİLGİSAYAR MÜHENDİSLİGİ\2.SENE 1.DÖNEM 3.VE 4. SINIF DERSLERİ\BSM311 - WEB PROGRAMLAMA\proje_my\TeknikDestek\TeknikDestek1\obj\Debug\netcoreapp3.1\TeknikDestek1.csprojAssemblyReference.cache
 D:\SAKARYA ÜNİVERSİTESİ\BİLGİSAYAR MÜHENDİSLİGİ\2.SENE 1.DÖNEM 3.VE 4. SINIF DERSLERİ\BSM311 - WEB PROGRAMLAMA\proje_my\TeknikDestek\TeknikDestek1\obj\Debug\netcoreapp3.1\Razor\Views\Document\Create.cshtml.g.cs
 D:\SAKARYA ÜNİVERSİTESİ\BİLGİSAYAR MÜHENDİSLİGİ\2.SENE 1.DÖNEM 3.VE 4. SINIF DERSLERİ\BSM311 - WEB PROGRAMLAMA\proje_my\TeknikDestek\TeknikDestek1\obj\Debug\netcoreapp3.1\Razor\Views\Document\Delete.cshtml.g.cs
 D:\SAKARYA ÜNİVERSİTESİ\BİLGİSAYAR MÜHENDİSLİGİ\2.SENE 1.DÖNEM 3.VE 4. SINIF DERSLERİ\BSM311 - WEB PROGRAMLAMA\proje_my\TeknikDestek\TeknikDestek1\obj\Debug\netcoreapp3.1\Razor\Views\Document\Details.cshtml.g.cs
@@ -413,3 +412,4 @@ D:\SAKARYA ÜNİVERSİTESİ\BİLGİSAYAR MÜHENDİSLİGİ\2.SENE 1.DÖNEM 3.VE 4
 D:\SAKARYA ÜNİVERSİTESİ\BİLGİSAYAR MÜHENDİSLİGİ\2.SENE 1.DÖNEM 3.VE 4. SINIF DERSLERİ\BSM311 - WEB PROGRAMLAMA\proje_my\TeknikDestek\TeknikDestek1\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.cshtml.g.cs
 D:\SAKARYA ÜNİVERSİTESİ\BİLGİSAYAR MÜHENDİSLİGİ\2.SENE 1.DÖNEM 3.VE 4. SINIF DERSLERİ\BSM311 - WEB PROGRAMLAMA\proje_my\TeknikDestek\TeknikDestek1\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ViewImports.cshtml.g.cs
 D:\SAKARYA ÜNİVERSİTESİ\BİLGİSAYAR MÜHENDİSLİGİ\2.SENE 1.DÖNEM 3.VE 4. SINIF DERSLERİ\BSM311 - WEB PROGRAMLAMA\proje_my\TeknikDestek\TeknikDestek1\obj\Debug\netcoreapp3.1\Razor\Views\Home\Admin.cshtml.g.cs
+D:\SAKARYA ÜNİVERSİTESİ\BİLGİSAYAR MÜHENDİSLİGİ\2.SENE 1.DÖNEM 3.VE 4. SINIF DERSLERİ\BSM311 - WEB PROGRAMLAMA\proje_my\TeknikDestek\TeknikDestek1\obj\Debug\netcoreapp3.1\TeknikDestek1.csprojAssemblyReference.cache

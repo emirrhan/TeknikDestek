@@ -61,6 +61,9 @@ namespace TeknikDestek1.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Id,DocumentName,DocumentDate,DocumentSubject,DocumentInfo,DocumentBanner,DocumentVideo,References,WriterId,CategoryId")] Document document)
         {
+
+
+
             if (ModelState.IsValid)
             {
                 _context.Add(document);

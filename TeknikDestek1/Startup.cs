@@ -31,7 +31,14 @@ namespace TeknikDestek1
             services.AddDbContext<ApplicationDbContext>(options =>
                 options.UseSqlServer(
                     Configuration.GetConnectionString("DefaultConnection")));
-            services.AddDefaultIdentity<User>(options => options.SignIn.RequireConfirmedAccount = true)
+            services.AddDefaultIdentity<User>(options =>
+                {
+                    options.Password.RequireDigit = false;
+                    options.Password.RequireUppercase = false;
+                    options.Password.RequiredLength = 1;
+                    options.Password.RequireLowercase = false;
+                    options.Password.RequireNonAlphanumeric = false;
+                })
                 .AddEntityFrameworkStores<ApplicationDbContext>();
             services.AddControllersWithViews();
             services.AddRazorPages();
