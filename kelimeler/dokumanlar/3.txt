@@ -1,0 +1,16 @@
+name	Oyun Crack
+konu    Oyunlarımızı sınırsız hale getirme
+
+info   Öncelikle crack yapmak istediğiniz yazılımın veya 
+oyunun kurulumunu bilgisayarınıza yapmanız gerekmektedir. 
+Genellikle kurulumlar standart olarak C:\Program Files 
+dizinine yapılmaktadır fakat 64 bit işletim sistemlerinde 
+C:\Program Files (x86) olarak kaydetmektedir. Eğer kurulum 
+sırasında dizini değiştirmediyseniz yazılımlar bu dizinlere 
+kurulmaktadır. Daha sonra crack dosyalarını kopyalıyıp bu
+dosyaları kurduğunuz programın Dosya konumunu açarak yapıştırınız.
+
+banner  3.
+video   https://www.youtube.com/watch?v=jlfdft7kHdA
+referans aldıgın yer internet
+yazar kim Mertcan
