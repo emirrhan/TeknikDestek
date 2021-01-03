@@ -48,8 +48,8 @@
 <section class="page-section bg-light" id="portfolio">
     <div class="container">
         <div class="text-center">
-            <h2 class="section-heading text-uppercase">Portfolio</h2>
-            <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+            <h2 class="section-heading text-uppercase">Bilgi Yuvası</h2>
+            <h3 class="section-subheading text-muted"></h3>
         </div>
         <div class="row">
             <div class="col-lg-4 col-sm-6 mb-4">
@@ -61,8 +61,8 @@
                         <img class="img-fluid" src="img/portfolio/03-thumbnail.jpg" alt="" />
                     </a>
                     <div class="portfolio-caption">
-                        <div class="portfolio-caption-heading">Threads</div>
-                        <div class="portfolio-caption-subheading text-muted">Illustration</div>
+                        <div class="portfolio-caption-heading"> @foreach (var item in Model){if ((item.Id == 1)){@item.DocumentName}}</div>
+                        <div class="portfolio-caption-subheading text-muted">@foreach (var item in Model){if ((item.Id == 1)){@item.DocumentSubject}}</div>
                     </div>
                 </div>
             </div>
@@ -75,8 +75,8 @@
                         <img class="img-fluid" src="img/portfolio/03-thumbnail.jpg" alt="" />
                     </a>
                     <div class="portfolio-caption">
-                        <div class="portfolio-caption-heading">Explore</div>
-                        <div class="portfolio-caption-subheading text-muted">Graphic Design</div>
+                        <div class="portfolio-caption-heading"> @foreach (var item in Model){if ((item.Id == 1)){@item.DocumentName}}</div>
+                        <div class="portfolio-caption-subheading text-muted">@foreach (var item in Model){if ((item.Id == 1)){@item.DocumentSubject}}</div>
                     </div>
                 </div>
             </div>
@@ -89,8 +89,8 @@
                         <img class="img-fluid" src="img/portfolio/03-thumbnail.jpg" alt="" />
                     </a>
                     <div class="portfolio-caption">
-                        <div class="portfolio-caption-heading">Finish</div>
-                        <div class="portfolio-caption-subheading text-muted">Identity</div>
+                        <div class="portfolio-caption-heading"> @foreach (var item in Model){if ((item.Id == 1)){@item.DocumentName}}</div>
+                        <div class="portfolio-caption-subheading text-muted">@foreach (var item in Model){if ((item.Id == 1)){@item.DocumentSubject}}</div>
                     </div>
                 </div>
             </div>
@@ -103,8 +103,8 @@
                         <img class="img-fluid" src="img/portfolio/03-thumbnail.jpg" alt="" />
                     </a>
                     <div class="portfolio-caption">
-                        <div class="portfolio-caption-heading">Lines</div>
-                        <div class="portfolio-caption-subheading text-muted">Branding</div>
+                        <div class="portfolio-caption-heading"> @foreach (var item in Model){if ((item.Id == 1)){@item.DocumentName}}</div>
+                        <div class="portfolio-caption-subheading text-muted">@foreach (var item in Model){if ((item.Id == 1)){@item.DocumentSubject}}</div>
                     </div>
                 </div>
             </div>
@@ -117,8 +117,8 @@
                         <img class="img-fluid" src="img/portfolio/03-thumbnail.jpg" alt="" />
                     </a>
                     <div class="portfolio-caption">
-                        <div class="portfolio-caption-heading">Southwest</div>
-                        <div class="portfolio-caption-subheading text-muted">Website Design</div>
+                        <div class="portfolio-caption-heading"> @foreach (var item in Model){if ((item.Id == 1)){@item.DocumentName}}</div>
+                        <div class="portfolio-caption-subheading text-muted">@foreach (var item in Model){if ((item.Id == 1)){@item.DocumentSubject}}</div>
                     </div>
                 </div>
             </div>
@@ -131,8 +131,8 @@
                         <img class="img-fluid" src="img/portfolio/03-thumbnail.jpg" alt="" />
                     </a>
                     <div class="portfolio-caption">
-                        <div class="portfolio-caption-heading">Window</div>
-                        <div class="portfolio-caption-subheading text-muted">Photography</div>
+                        <div class="portfolio-caption-heading"> @foreach (var item in Model){if ((item.Id == 1)){@item.DocumentName}}</div>
+                        <div class="portfolio-caption-subheading text-muted">@foreach (var item in Model){if ((item.Id == 1)){@item.DocumentSubject}}</div>
                     </div>
                 </div>
             </div>
@@ -205,71 +205,51 @@
 <section class="page-section bg-light" id="team">
     <div class="container">
         <div class="text-center">
-            <h2 class="section-heading text-uppercase">Our Amazing Team</h2>
-            <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+            <h2 class="section-heading text-uppercase">Takımımız</h2>
+            <h3 class="section-subheading text-muted"></h3>
         </div>
         <div class="row">
             <div class="col-lg-4">
                 <div class="team-member">
-                    <img class="mx-auto rounded-circle" src="assets/img/team/1.jpg" alt="" />
-                    <h4>Kay Garland</h4>
-                    <p class="text-muted">Lead Designer</p>
-                    <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
-                    <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
-                    <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
+                    <img class="mx-auto rounded-circle" src="img/team/1.jpg" alt="" />
+                    <h4>Emirhan Ergen</h4>
+                    <p class="text-muted">Basic Developer</p>
+                    <a class="btn btn-dark btn-social mx-2" href="#https://github.com/emirrhan"><i class="fab fa-twitter"></i></a>
+                    
+                    <a class="btn btn-dark btn-social mx-2" href="#https://www.linkedin.com/in/emirhan-ergen-893a781b5/"><i class="fab fa-linkedin-in"></i></a>
                 </div>
             </div>
             <div class="col-lg-4">
                 <div class="team-member">
-                    <img class="mx-auto rounded-circle" src="assets/img/team/2.jpg" alt="" />
-                    <h4>Larry Parker</h4>
-                    <p class="text-muted">Lead Marketer</p>
-                    <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
-                    <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
-                    <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
+                    <img class="mx-auto rounded-circle" src="img/team/4.jpg" alt="" />
+                    <h4>Sakarya Üniversitesi</h4>
+                    <p class="text-muted">...</p>
                 </div>
             </div>
             <div class="col-lg-4">
                 <div class="team-member">
-                    <img class="mx-auto rounded-circle" src="assets/img/team/3.jpg" alt="" />
-                    <h4>Diana Petersen</h4>
-                    <p class="text-muted">Lead Developer</p>
-                    <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
-                    <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
-                    <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
+                    <img class="mx-auto rounded-circle" src="img/team/3.jpg" alt="" />
+                    <h4>Mertcan Yeter</h4>
+                    <p class="text-muted">Basic Developer</p>
+                    <a class="btn btn-dark btn-social mx-2" href="#https://github.com/Mertyeter54"><i class="fab fa-twitter"></i></a>
+                    
+                    <a class="btn btn-dark btn-social mx-2" href="#https://www.linkedin.com/in/mertcan-yeter-211501203/"><i class="fab fa-linkedin-in"></i></a>
                 </div>
             </div>
         </div>
         <div class="row">
-            <div class="col-lg-8 mx-auto text-center"><p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p></div>
+            <div class="col-lg-8 mx-auto text-center"><p class="large text-muted"></p></div>
         </div>
     </div>
 </section>
-<!-- Clients-->
-<div class="py-5">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-3 col-sm-6 my-3">
-                <a href="#!"><img class="img-fluid d-block mx-auto" src="assets/img/logos/envato.jpg" alt="" /></a>
-            </div>
-            <div class="col-md-3 col-sm-6 my-3">
-                <a href="#!"><img class="img-fluid d-block mx-auto" src="assets/img/logos/designmodo.jpg" alt="" /></a>
-            </div>
-            <div class="col-md-3 col-sm-6 my-3">
-                <a href="#!"><img class="img-fluid d-block mx-auto" src="assets/img/logos/themeforest.jpg" alt="" /></a>
-            </div>
-            <div class="col-md-3 col-sm-6 my-3">
-                <a href="#!"><img class="img-fluid d-block mx-auto" src="assets/img/logos/creative-market.jpg" alt="" /></a>
-            </div>
-        </div>
-    </div>
-</div>
+
 <!-- Contact-->
 <section class="page-section" id="contact">
     <div class="container">
         <div class="text-center">
-            <h2 class="section-heading text-uppercase">Contact Us</h2>
-            <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+            <h2 class="section-heading text-uppercase">İletişim</h2>
+            <h3 class="section-subheading text-muted">Bize Bu Maillerden Ulaşa Bilirsiniz..</h3>
+            <p class="section-subheading text-muted">emirhan.ergen2@ogr.sakarya.edu.tr veya mertcan.yeter1@ogr.sakarya.edu.tr</p>
         </div>
         <form id="contactForm" name="sentMessage" novalidate="novalidate">
             <div class="row align-items-stretch mb-5">
@@ -305,16 +285,8 @@
 <footer class="footer py-4">
     <div class="container">
         <div class="row align-items-center">
-            <div class="col-lg-4 text-lg-left">Copyright © Your Website 2020</div>
-            <div class="col-lg-4 my-3 my-lg-0">
-                <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
-                <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
-                <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
-            </div>
-            <div class="col-lg-4 text-lg-right">
-                <a class="mr-3" href="#!">Privacy Policy</a>
-                <a href="#!">Terms of Use</a>
-            </div>
+            <div class="col-lg-4 text-lg-left text-muted">Copyright © Teknik-Destek 2020</div>
+           
         </div>
     </div>
 </footer>
@@ -329,33 +301,16 @@
                     <div class="col-lg-8">
                         <div class="modal-body">
                             <!-- Project Details Go Here-->
-                            <h2 class="text-uppercase">Project Name : 
-
-                            @foreach (var item in Model)
-                                {
-                                    if ((item.Id == 1))
-                                    {
-                                        @item.DocumentName
-                                    }
-                                
-                                }  
-                                </h2>
-                            <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                            <img class="img-fluid d-block mx-auto" src="img/portfolio/03-full.jpg" alt="" />
-                            <p>@foreach (var item in Model)
-                               {
-                                   @item.DocumentName
-                               }</p>
+                            <h2 class="text-uppercase">@foreach (var item in Model){if ((item.Id == 1)){@item.DocumentName}} </h2>
+                            <p class="item-intro text-muted"></p>
+                            <img class="img-fluid d-block mx-auto" src="@foreach (var item in Model){if ((item.Id == 3)){@Url.Content(item.DocumentBanner)} }" alt="" />
+                            <p>@foreach (var item in Model){if ((item.Id == 1)){@item.DocumentInfo}}</p>
                             <ul class="list-inline">
-                                <li>Date: @foreach (var item in Model)
-                                          {
-                                              @item.DocumentDate
-                                          }</li>
-                                <li>Konu: @foreach (var item in Model)
-                                          {
-                                              @item.DocumentSubject
-                                          }</li>
-                                
+                                <li>Video : <a href="@foreach (var item in Model){if ((item.Id == 1)){@item.DocumentVideo}}"> @foreach (var item in Model){if ((item.Id == 1)){@item.DocumentVideo}}</a></li>
+                                <li>Tarihi : @foreach (var item in Model){if ((item.Id == 1)){@item.DocumentDate}}</li>
+                                <li>Yazarı  :@foreach (var item in Model){if ((item.Id == 1)){@item.Writer}}</li>
+                                <li>Kategorisi : @foreach (var item in Model){if ((item.Id == 1)){@item.Category}}</li>
+
                             </ul>
                             <button class="btn btn-primary" data-dismiss="modal" type="button">
                                 <i class="fas fa-times mr-1"></i>
@@ -379,27 +334,15 @@
                     <div class="col-lg-8">
                         <div class="modal-body">
                             <!-- Project Details Go Here-->
-                            <h2 class="text-uppercase">Project Name : 
-
-                                @foreach (var item in Model)
-                                {
-                                    if ((item.Id == 1))
-                                    {
-                                        @item.DocumentName
-                                    }
-                                
-                                } </h2>
-                            <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                            <img class="img-fluid d-block mx-auto" src="img/portfolio/03-full.jpg" alt="" />
-                            <p>
-                                @foreach (var item in Model)
-                                {
-                            @item.DocumentName}
-                                                    </p>
+                            <h2 class="text-uppercase">@foreach (var item in Model){if ((item.Id == 1)){@item.DocumentName}} </h2>
+                            <p class="item-intro text-muted"></p>
+                            <img class="img-fluid d-block mx-auto" src="@foreach (var item in Model){if ((item.Id == 3)){@Url.Content(item.DocumentBanner)} }" alt="" />
+                            <p>@foreach (var item in Model){if ((item.Id == 1)){@item.DocumentInfo}}</p>
                             <ul class="list-inline">
-                                <li>Date: January 2020</li>
-                                <li>Client: Explore</li>
-                                <li>Category: Graphic Design</li>
+                                <li>Video : <a href="@foreach (var item in Model){if ((item.Id == 1)){@item.DocumentVideo}}"> @foreach (var item in Model){if ((item.Id == 1)){@item.DocumentVideo}}</a></li>
+                                <li>Tarihi : @foreach (var item in Model){if ((item.Id == 1)){@item.DocumentDate}}</li>
+                                <li>Yazarı  :@foreach (var item in Model){if ((item.Id == 1)){@item.Writer}}</li>
+                                <li>Kategorisi : @foreach (var item in Model){if ((item.Id == 1)){@item.Category}}</li>
                             </ul>
                             <button class="btn btn-primary" data-dismiss="modal" type="button">
                                 <i class="fas fa-times mr-1"></i>
@@ -422,27 +365,15 @@
                     <div class="col-lg-8">
                         <div class="modal-body">
                             <!-- Project Details Go Here-->
-                            <h2 class="text-uppercase">Project Name : 
-
-                                @foreach (var item in Model)
-                                {
-                                    if ((item.Id == 1))
-                                    {
-                                        @item.DocumentName
-                                    }
-                                
-                                } </h2>
-                            <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                            <img class="img-fluid d-block mx-auto" src="img/portfolio/03-full.jpg" alt="" />
-                            <p>
-                                @foreach (var item in Model)
-                                {
-                            @item.DocumentName}
-                                                    </p>
+                            <h2 class="text-uppercase">@foreach (var item in Model){if ((item.Id == 1)){@item.DocumentName}} </h2>
+                            <p class="item-intro text-muted"></p>
+                            <img class="img-fluid d-block mx-auto" src="@foreach (var item in Model){if ((item.Id == 3)){@Url.Content(item.DocumentBanner)} }" alt="" />
+                            <p> @foreach (var item in Model){@item.DocumentName}</p>
                             <ul class="list-inline">
-                                <li>Date: January 2020</li>
-                                <li>Client: Finish</li>
-                                <li>Category: Identity</li>
+                                <li>Video : <a href="@foreach (var item in Model){if ((item.Id == 1)){@item.DocumentVideo}}"> @foreach (var item in Model){if ((item.Id == 1)){@item.DocumentVideo}}</a></li>
+                                <li>Tarihi : @foreach (var item in Model){if ((item.Id == 1)){@item.DocumentDate}}</li>
+                                <li>Yazarı : @foreach (var item in Model){if ((item.Id == 1)){@item.Writer}}</li>
+                                <li>Kategorisi : @foreach (var item in Model){if ((item.Id == 1)){@item.Category}}</li>
                             </ul>
                             <button class="btn btn-primary" data-dismiss="modal" type="button">
                                 <i class="fas fa-times mr-1"></i>
@@ -465,29 +396,15 @@
                     <div class="col-lg-8">
                         <div class="modal-body">
                             <!-- Project Details Go Here-->
-                            <h2 class="text-uppercase">Project Name : 
-
-                                @foreach (var item in Model)
-                                {
-                                    if ((item.Id == 1))
-                                    {
-                                        @item.DocumentName
-                                    }
-                                
-                                } </h2>
-                            <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                            <img class="img-fluid d-block mx-auto" src="img/portfolio/03-full.jpg" alt="" />
-                            <p>
-                                @foreach (var item in Model)
-                                {
-                                    @item.DocumentName
-
-                                }
-                                                    </p>
+                            <h2 class="text-uppercase">@foreach (var item in Model){if ((item.Id == 1)){@item.DocumentName}} </h2>
+                            <p class="item-intro text-muted"></p>
+                            <img class="img-fluid d-block mx-auto" src="@foreach (var item in Model){if ((item.Id == 3)){@Url.Content(item.DocumentBanner)} }" alt="" />
+                            <p>@foreach (var item in Model){if ((item.Id == 1)){@item.DocumentInfo}}</p>
                             <ul class="list-inline">
-                                <li>Date: January 2020</li>
-                                <li>Client: Lines</li>
-                                <li>Category: Branding</li>
+                                <li>Video : <a href="@foreach (var item in Model){if ((item.Id == 1)){@item.DocumentVideo}}"> @foreach (var item in Model){if ((item.Id == 1)){@item.DocumentVideo}}</a></li>
+                                <li>Tarihi : @foreach (var item in Model){if ((item.Id == 1)){@item.DocumentDate}}</li>
+                                <li>Yazarı : @foreach (var item in Model){if ((item.Id == 1)){@item.Writer}}</li>
+                                <li>Kategorisi : @foreach (var item in Model){if ((item.Id == 1)){@item.Category}}</li>
                             </ul>
                             <button class="btn btn-primary" data-dismiss="modal" type="button">
                                 <i class="fas fa-times mr-1"></i>
@@ -510,27 +427,15 @@
                     <div class="col-lg-8">
                         <div class="modal-body">
                             <!-- Project Details Go Here-->
-                            <h2 class="text-uppercase">Project Name : 
-
-                                @foreach (var item in Model)
-                                {
-                                    if ((item.Id == 1))
-                                    {
-                                        @item.DocumentName
-                                    }
-                                
-                                } </h2>
-                            <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                            <img class="img-fluid d-block mx-auto" src="img/portfolio/03-full.jpg" alt="" />
-                            <p>
-                                @foreach (var item in Model)
-                                {
-                            @item.DocumentName}
-                                                    </p>
+                            <h2 class="text-uppercase">@foreach (var item in Model){if ((item.Id == 1)){@item.DocumentName}} </h2>
+                            <p class="item-intro text-muted"></p>
+                            <img class="img-fluid d-block mx-auto" src="@foreach (var item in Model){if ((item.Id == 3)){@Url.Content(item.DocumentBanner)} }" alt="" />
+                            <p>@foreach (var item in Model){if ((item.Id == 1)){@item.DocumentInfo}}</p>
                             <ul class="list-inline">
-                                <li>Date: January 2020</li>
-                                <li>Client: Southwest</li>
-                                <li>Category: Website Design</li>
+                                <li>Video : <a href="@foreach (var item in Model){if ((item.Id == 1)){@item.DocumentVideo}}"> @foreach (var item in Model){if ((item.Id == 1)){@item.DocumentVideo}}</a></li>
+                                <li>Tarihi : @foreach (var item in Model){if ((item.Id == 1)){@item.DocumentDate}}</li>
+                                <li>Yazarı : @foreach (var item in Model){if ((item.Id == 1)){@item.Writer}}</li>
+                                <li>Kategorisi : @foreach (var item in Model){if ((item.Id == 1)){@item.Category}}</li>
                             </ul>
                             <button class="btn btn-primary" data-dismiss="modal" type="button">
                                 <i class="fas fa-times mr-1"></i>
@@ -553,27 +458,15 @@
                     <div class="col-lg-8">
                         <div class="modal-body">
                             <!-- Project Details Go Here-->
-                            <h2 class="text-uppercase">Project Name : 
-
-                                @foreach (var item in Model)
-                                {
-                                    if ((item.Id == 1))
-                                    {
-                                        @item.DocumentName
-                                    }
-                                
-                                } </h2>
-                            <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                            <img class="img-fluid d-block mx-auto" src="img/portfolio/03-full.jpg" alt="" />
-                            <p>
-                                @foreach (var item in Model)
-                                {
-                            @item.DocumentName}
-                                                    </p>
+                            <h2 class="text-uppercase">@foreach (var item in Model){if ((item.Id == 1)){@item.DocumentName}} </h2>
+                            <p class="item-intro text-muted"></p>
+                            <img class="img-fluid d-block mx-auto" src="@foreach (var item in Model){if ((item.Id == 1)){@item.DocumentBanner}}" alt="" />
+                            <p>@foreach (var item in Model){if ((item.Id == 1)){@item.DocumentInfo}}</p>
                             <ul class="list-inline">
-                                <li>Date: January 2020</li>
-                                <li>Client: Window</li>
-                                <li>Category: Photography</li>
+                                <li>Video : <a href="@foreach (var item in Model){if ((item.Id == 1)){@item.DocumentVideo}}"> @foreach (var item in Model){if ((item.Id == 1)){@item.DocumentVideo}}</a></li>
+                                <li>Tarihi : @foreach (var item in Model){if ((item.Id == 1)){@item.DocumentDate}}</li>
+                                <li>Yazarı : @foreach (var item in Model){if ((item.Id == 1)){@item.Writer.Name}}</li>
+                                <li>Kategorisi : @foreach (var item in Model){if ((item.Id == 1)){@item.Category.CategoryName}}</li>
                             </ul>
                             <button class="btn btn-primary" data-dismiss="modal" type="button">
                                 <i class="fas fa-times mr-1"></i>

@@ -1,7 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
@@ -14,9 +16,12 @@ namespace TeknikDestek1.Controllers
     {
         private readonly ApplicationDbContext _context;
 
-        public DocumentController(ApplicationDbContext context)
+        private readonly IWebHostEnvironment _hostingEnvironment;
+
+        public DocumentController(ApplicationDbContext context, IWebHostEnvironment hostingEnvironment)
         {
             _context = context;
+            _hostingEnvironment = hostingEnvironment;
         }
 
         // GET: Document
@@ -54,27 +59,44 @@ namespace TeknikDestek1.Controllers
             return View();
         }
 
-        // POST: Document/Create
+
+        // POST: Film/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to, for 
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Id,DocumentName,DocumentDate,DocumentSubject,DocumentInfo,DocumentBanner,DocumentVideo,References,WriterId,CategoryId")] Document document)
         {
-
-
-
             if (ModelState.IsValid)
             {
+
+                //******
+                string webRootPath = _hostingEnvironment.WebRootPath;
+                var files = HttpContext.Request.Form.Files;
+
+
+                string fileName = Guid.NewGuid().ToString();
+                var uploads = Path.Combine(webRootPath, @"img\documentbanner");
+                var extension = Path.GetExtension(files[0].FileName);
+
+                using (var fileStream = new FileStream(Path.Combine(uploads, fileName + extension), FileMode.Create))
+                {
+                    files[0].CopyTo(fileStream);
+                }
+                document.DocumentBanner = @"\img\documentbanner" + fileName + extension;
+
+                //********
+
                 _context.Add(document);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["CategoryId"] = new SelectList(_context.Category, "Id", "CategoryName", document.CategoryId);
-            ViewData["WriterId"] = new SelectList(_context.Writer, "Id", "Name", document.WriterId);
+
+            ViewData["CategoryId"] = new SelectList(_context.Category, "Id", "Id", document.CategoryId);
+            ViewData["WriterId"] = new SelectList(_context.Writer, "Id", "Id", document.WriterId);
             return View(document);
         }
-
+        
         // GET: Document/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
