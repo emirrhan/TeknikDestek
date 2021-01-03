@@ -1,0 +1,18 @@
+name	Sürücü Kurulumu
+konu    Bilgisayar donanımını tanıtılması
+
+info    Windows otomatik olarak bilgisayarınıza bağladığınız yeni
+ aygıtlar için sürücü olup olmadığını kontrol eder veya sürücüler
+ Windows  kurulumu sırasında otomatik olarak yüklenir ama Geçmişte
+ bilgisayarınıza bağladığınız donanım için, ilerleyen zamanlarda 
+güncelleştirilmiş sürücüler çıkabilir ve bu sürücüler otomatik olarak
+ yüklenmez. Zaman içerisinde bazı eksiklikleri, hataları ve açıkları 
+kapatmak adına donanım üreticilerinin yayınladığı sürücü güncellemelerini 
+yüklemek gerekir. Size gereken sürücüyü Windows Update ile bulamıyorsanız, 
+söz konusu sürücüyü çoğunlukla kullanmak istediğiniz donanımla veya aygıtla 
+birlikte verilen diskte veya üreticinin web sitesinde bulup kurulumunu gerçekleştirebilirsiniz.
+
+banner  2.jpg
+video   https://www.youtube.com/watch?v=MjdIE3tILe4
+referans aldıgın yer: Sistem kurulumu modül kitabı
+yazar Emirhan
