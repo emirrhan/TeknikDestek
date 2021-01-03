@@ -1,0 +1,16 @@
+Web Güvenliği
+Web güvenliğine öncelikle web tarayıcınızın 
+güvenliğiyle başlamak doğru olacaktır. 
+Bunun için hangi web tarayıcısını 
+kullanıyorsanız kullanın tarayıcı 
+gizlilik ve güvenlik ayarlarını yapmakla başlamalısınız.
+
+
+
+
+
+Web Security
+Lorem ipsum dolor sit amet, consectetur 
+adipisicing elit. Minima maxime quam 
+architecto quo inventore harum ex magni, 
+dicta impedit.
